@@ -79,36 +79,47 @@ array after applying offer*/
 // }
 
 //  Array method practice  question 
-let arr = ["Bloomberg","Google","Microsoft","Ibm","Netflix"];
-console.log(arr.slice(1,arr.length));
-arr.splice(3,1,"Ola");
-arr.push("Amazon");
+// let arr = ["Bloomberg","Google","Microsoft","Ibm","Netflix"];
+// console.log(arr.slice(1,arr.length));
+// arr.splice(3,1,"Ola");
+// arr.push("Amazon");
 
-function myFunc(){
-    console.log("Hllo world");
+// function myFunc(){
+//     console.log("Hllo world");
     
-}
-myFunc();
-function sum(x, y){
-    return x+y;
-}
+// }
+// myFunc();
+// function sum(x, y){
+//     return x+y;
+// }
 
-function sum(x, y){
-    return x+y;
-}
+// function sum(x, y){
+//     return x+y;
+// }
 
-// Arrow function 
-// const mult=(a,b)=>{
+// // Arrow function 
+// // const mult=(a,b)=>{
+// //     console.log(a*b);
+    
+// // }
+// let mult=(a,b)=>{
 //     console.log(a*b);
     
 // }
-let mult=(a,b)=>{
-    console.log(a*b);
-    
-}
-mult=5;
-//  Practice question on function 
-// function countVowel(str){
+// mult=5;
+// //  Practice question on function 
+// // function countVowel(str){
+// //     str.toLowerCase();
+// //     let count = 0;
+// //     for (let char of str){
+// //         if(char ===  "a"|char ===  "e"|char ===  "i"|char ===  "o"|char ===  "u"){
+// //             count++;
+// //         }
+// //     }
+// //     return  count;
+// // }
+
+// let  vowels=(str)=>{
 //     str.toLowerCase();
 //     let count = 0;
 //     for (let char of str){
@@ -118,21 +129,12 @@ mult=5;
 //     }
 //     return  count;
 // }
+// let nums= [24,79,45,80];
+// nums.forEach((val)=>{
+//     console.log(val**2);
+// });
 
-let  vowels=(str)=>{
-    str.toLowerCase();
-    let count = 0;
-    for (let char of str){
-        if(char ===  "a"|char ===  "e"|char ===  "i"|char ===  "o"|char ===  "u"){
-            count++;
-        }
-    }
-    return  count;
-}
-let nums= [24,79,45,80];
-nums.forEach((val)=>{
-    console.log(val**2);
-});
-
-
+// DOM
+let h2 = document.querySelector("h1");
+h2.innerText = h2.innerText + "From Pubayan";
 
