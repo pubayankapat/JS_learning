@@ -21,7 +21,7 @@
 // conditional operators >=,===,==,!=
 // assignment operators: =,+=,*=,/=,%=
 // string
-// for of loop              ||      for in loop(object)
+// for of loop(Array)              ||      for in loop(object)
 
 
 //Promt
@@ -88,13 +88,46 @@ function myFunc(){
     console.log("Hllo world");
     
 }
-
 myFunc();
+function sum(x, y){
+    return x+y;
+}
 
+function sum(x, y){
+    return x+y;
+}
 
+// Arrow function 
+// const mult=(a,b)=>{
+//     console.log(a*b);
+    
+// }
+let mult=(a,b)=>{
+    console.log(a*b);
+    
+}
+mult=5;
+//  Practice question on function 
+// function countVowel(str){
+//     str.toLowerCase();
+//     let count = 0;
+//     for (let char of str){
+//         if(char ===  "a"|char ===  "e"|char ===  "i"|char ===  "o"|char ===  "u"){
+//             count++;
+//         }
+//     }
+//     return  count;
+// }
 
-
-
-
+let  vowels=(str)=>{
+    str.toLowerCase();
+    let count = 0;
+    for (let char of str){
+        if(char ===  "a"|char ===  "e"|char ===  "i"|char ===  "o"|char ===  "u"){
+            count++;
+        }
+    }
+    return  count;
+}
 
 
