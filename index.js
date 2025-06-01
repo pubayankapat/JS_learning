@@ -67,18 +67,29 @@
 /*For a given array with price of 5 items all items have an offer of 10% off on them.Change the array to the final
 array after applying offer*/
 
-let item = [100,200,250,350];
-let price;
-for(let i = 0;i<item.length;i++){
-    price=item[i]-item[i]*(0.1);
-    item[i]=price;
+// let item = [100,200,250,350];
+// let price;
+// for(let i = 0;i<item.length;i++){
+//     price=item[i]-item[i]*(0.1);
+//     item[i]=price;
+// }
+
+// for(let val of item){
+//     console.log(val);
+// }
+
+//  Array method practice  question 
+let arr = ["Bloomberg","Google","Microsoft","Ibm","Netflix"];
+console.log(arr.slice(1,arr.length));
+arr.splice(3,1,"Ola");
+arr.push("Amazon");
+
+function myFunc(){
+    console.log("Hllo world");
+    
 }
 
-for(let val of item){
-    console.log(val);
-}
-
-
+myFunc();
 
 
 
