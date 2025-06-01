@@ -129,5 +129,10 @@ let  vowels=(str)=>{
     }
     return  count;
 }
+let nums= [24,79,45,80];
+nums.forEach((val)=>{
+    console.log(val**2);
+});
+
 
 
