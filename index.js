@@ -182,4 +182,31 @@ modeBtn.addEventListener("click", () => {
 
 });
 // 2nd qquestion
+// class and objects
+class user{
+    constructor(name,email){
+        this.name=name;
+        this.email=email;
+    }
 
+    viewData(){
+        console.log("Name:"+this.name);
+    }
+}
+
+let student1 = new user("pubayan", "pk@gmail.com");
+student1.viewData();
+
+class admin extends user{
+    constructor(name,email){
+        super(name,email);
+    }
+    editData(){
+        super.name="hello";
+    }
+}
+
+let admin1 = new admin("admin","admin@gmail.com");
+admin1.editData();
+
+admin1.viewData();
