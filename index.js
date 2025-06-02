@@ -48,12 +48,12 @@
 
 // for(let mark of marks){
 //     console.log(mark);
-    
+
 // }
 
 // for(let s of str){
 //     console.log(s.toUpperCase());
-    
+
 // }
 /*From a given array with marks of student.Find the average marks from the given array */
 // let marks = [85, 97, 44,37,78];
@@ -86,7 +86,7 @@ array after applying offer*/
 
 // function myFunc(){
 //     console.log("Hllo world");
-    
+
 // }
 // myFunc();
 // function sum(x, y){
@@ -100,11 +100,11 @@ array after applying offer*/
 // // Arrow function 
 // // const mult=(a,b)=>{
 // //     console.log(a*b);
-    
+
 // // }
 // let mult=(a,b)=>{
 //     console.log(a*b);
-    
+
 // }
 // mult=5;
 // //  Practice question on function 
@@ -135,8 +135,51 @@ array after applying offer*/
 // });
 
 // DOM
-let h2 = document.querySelector("h1");
-h2.innerText = h2.innerText + "From Pubayan";
-let div = document.querySelector("div");
-div.setAttribute("id","box");
+// let h2 = document.querySelector("h1");
+// h2.innerText = h2.innerText + "From Pubayan";
+// let div = document.querySelector("div");
+// div.setAttribute("id","box");
+// let newButton= document.createElement("button");
+// console.log(newButton);
+// newButton.innerText="Press it";
+// document.querySelector("p").after(newButton);
+// Practice question
+
+
+// let el = document.createElement("Button");
+// el.innerText="Click me";
+// el.style.backgroundColor = "red";
+// el.style.color= "Blue";
+// el.setAttribute("class","btn1")
+// document.querySelector("Body").prepend(el);
+
+
+// let para= document.querySelector("p");
+// console.log(para.getAttribute("content"));
+
+
+// let bt1 = document.querySelector("btn1");
+// bt1.onClick= (evt) => {
+//     console.log("You are clicking the button");
+
+// };
+
+// Practice question 
+let modeBtn = document.querySelector("#mode");
+let body = document.querySelector("body")
+let mode = "light";
+modeBtn.addEventListener("click", () => {
+    if (mode === "light") {
+        mode = "dark";
+        body.classList.add("dark");
+        body.classList.remove("light");
+    } else {
+        mode = "light"
+        body.classList.add("light");
+        body.classList.remove("dark");
+    }
+    console.log(mode);
+
+});
+// 2nd qquestion
 
