@@ -137,4 +137,6 @@ array after applying offer*/
 // DOM
 let h2 = document.querySelector("h1");
 h2.innerText = h2.innerText + "From Pubayan";
+let div = document.querySelector("div");
+div.setAttribute("id","box");
 
