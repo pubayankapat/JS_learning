@@ -230,4 +230,9 @@ let firstName="Pubayan";
 let lastName="Kapat";
 val.innerText = `My name is ${firstName} ${lastName} \n Email: ${firstName}${lastName}@gmail.com`;
 
-document.write("<h2>Hlloworld</h2>");
+document.write("<h2>Hllo world</h2>");
+let date = new Date;
+console.log(date.getDate());
+let el = document.createElement('p');
+document.body.append(el);
+el.innerText=`Todays date: ${date.getDate()}`;
