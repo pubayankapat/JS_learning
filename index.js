@@ -165,48 +165,69 @@ array after applying offer*/
 // };
 
 // Practice question 
-let modeBtn = document.querySelector("#mode");
-let body = document.querySelector("body")
-let mode = "light";
-modeBtn.addEventListener("click", () => {
-    if (mode === "light") {
-        mode = "dark";
-        body.classList.add("dark");
-        body.classList.remove("light");
-    } else {
-        mode = "light"
-        body.classList.add("light");
-        body.classList.remove("dark");
-    }
-    console.log(mode);
+// let modeBtn = document.querySelector("#mode");
+// let body = document.querySelector("body")
+// let mode = "light";
+// modeBtn.addEventListener("click", () => {
+//     if (mode === "light") {
+//         mode = "dark";
+//         body.classList.add("dark");
+//         body.classList.remove("light");
+//     } else {
+//         mode = "light"
+//         body.classList.add("light");
+//         body.classList.remove("dark");
+//     }
+//     console.log(mode);
 
-});
-// 2nd qquestion
-// class and objects
-class user{
-    constructor(name,email){
-        this.name=name;
-        this.email=email;
-    }
+// });
+// // 2nd qquestion
+// // class and objects
+// class user{
+//     constructor(name,email){
+//         this.name=name;
+//         this.email=email;
+//     }
 
-    viewData(){
-        console.log("Name:"+this.name);
-    }
-}
+//     viewData(){
+//         console.log("Name:"+this.name);
+//     }
+// }
 
-let student1 = new user("pubayan", "pk@gmail.com");
-student1.viewData();
+// let student1 = new user("pubayan", "pk@gmail.com");
+// student1.viewData();
 
-class admin extends user{
-    constructor(name,email){
-        super(name,email);
-    }
-    editData(){
-        super.name="hello";
-    }
-}
+// class admin extends user{
+//     constructor(name,email){
+//         super(name,email);
+//     }
+//     editData(){
+//         super.name="hello";
+//     }
+// }
 
-let admin1 = new admin("admin","admin@gmail.com");
-admin1.editData();
+// let admin1 = new admin("admin","admin@gmail.com");
+// admin1.editData();
 
-admin1.viewData();
+// admin1.viewData();
+
+
+// Infosys spring board prooblem 
+
+const pi = 3.14;
+// let radius= 6;
+let area = pi*radius**2;
+// let val = document.querySelector('h2');
+// val.innerText = area;
+var radius = 8;
+area = pi*radius**2;
+var radius = 9;
+
+let val = document.querySelector('h2');
+val.innerText = area;
+
+let firstName="Pubayan";
+let lastName="Kapat";
+val.innerText = `My name is ${firstName} ${lastName} \n Email: ${firstName}${lastName}@gmail.com`;
+
+document.write("<h2>Hlloworld</h2>");
